@@ -1,0 +1,10 @@
+name: weatherComfort
+account: wjholst
+server: shinyapps.io
+appId: 105914
+bundleId: 468749
+url: https://wjholst.shinyapps.io/weatherComfort/
+when: 1464810074.12052
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: screenShot.png|serverOldFaithful.R|serverSlider.R|Thumbs.db|uibackup.R|uibroken.R|uiOldFaithful.R|uiSlider.R
