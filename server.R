@@ -38,14 +38,14 @@ shinyServer(function(input, output) {
   output$result <- renderText({
       input$calcButton
       #isolate(paste(input$t + input$hp))  
-      isolate(paste(calcComfort(input$t,input$hp,input$ws)))
+      isolate(paste(calcHeatComfort(input$t,input$hp,input$ws)))
   }
   )
 
   output$resultc <- renderText({
       input$calcButton
 
-      isolate(paste(convertF2C(calcComfort(input$t,input$hp,input$ws))))      
+      isolate(paste(convertF2C(calcHeatComfort(input$t,input$hp,input$ws))))      
   }) 
 }
 )
